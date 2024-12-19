@@ -1,6 +1,5 @@
 import random
-
-
+# ka izskatas katrs zimejums pec nepareizas uzminesanas
 zimejumi = [
     '''
      -----
@@ -59,14 +58,14 @@ zimejumi = [
          |
     -----'''
 ]
-
+#vardi
 vardi = ['janis', 'programesana', 'cola', 'jazz', 'novembris']
 
 vards = random.choice(vardi)
 minetais_vards = ['_'] * len(vards)
 minejumi = set()
 meginajumi = 6 
-
+#pati spele
 print("Karatavu spele")
 print("megini uzminet vardu. Katru reizi, kad neuzminesi pareizi, klusi tuvak zaudet un diemzel liksim tev pakarties >:).")
 
